@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Somehow I got an error, so I comment the title, just uncomment to show -->
+    <!-- <title>Personal Portfolio Website</title> -->
+    <link rel="stylesheet" href="../public/style.css">
+    <script src="https://kit.fontawesome.com/5dee321c44.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+</head>
+
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo">
+                <a href="#">Portfo<span>lio.</span></a>
+            </div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li><a href="#project" class="menu-btn">Personal Project</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">
+                    Hello, my name is</div>
+                <div class="text-2">
+                    Van Pham</div>
+                <div class="text-3">
+                    And I'm a <span class="typing">Software Developer</span></div>
+                <a href="../public/files/Resume-Van-Dev.pdf" download target="_blank">Hire me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">
+                About me</h2>
+            <div class="about-content">
+
+
+                <div class="text">
+                    I'm Van Pham and I'm a <span class="typing-2">Software Deveoper</span></div>
+                <p>An enthusiastic backend developer who desires to explore new technologies.
+                    Hardworking, independence and innovative are three chracteristics which help me
+                    to adpat rapidly changing envinroment.
+                </p>
+                <a href="../public/files/Resume-Van-Dev.pdf" download target="_blank"><i class="fas fa-download"></i>
+                    &nbsp;Download Resume</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">
+                My Skills</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+
+                        <div class="text">
+                            Laravel</div>
+                        <img src="../public/images/laravel.png" width="30%" height="20%" />
+                        <p>Solid understanding of OOP, knowledge of PHP and Larvel Experience
+                            </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+
+                        <div class="text">
+                            NodeJs</div>
+                        <img src="../public/images/node.png" width="20%" height="20%" />
+                        <p>Development experience designing object oriented with JavaScript, 3 Personal Projects and courses in my College</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+
+                        <div class="text">
+                            ReactJs</div>
+                        <img src="../public/images/react.png" width="42%" height="32%" />
+                        <p>Experience with ReactJs workflow(Redux), familiarity with Restful API</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="project" id="project">
+        <div class="max-width">
+            <h2 class="title">
+                My Project</h2>
+            <div class="container">
+                <div class="item1">
+                    <h2>Restuarant Application</h2>
+                    <br>
+                    <p>A simple pizza order application.
+                        This application can help users order pizzas online.
+                        It also helps the admin to manage orders. user authentication,
+                        user management, order history, menu management, address management,
+                        order food, and pay money.</p>
+                    <br />
+                    <p><span>PHP</span> <span>Laravel MVC</span> <span>PostgreSQL</span>
+                        <span>Vue JS</span> <span>Boostrap</span>
+                    </p>
+                    <br />
+                    <h3>Link to</h3>
+                    <br />
+                    <a href="http://mysterious-sierra-41936.herokuapp.com/" target="_blank"><i
+                            class="fas fa-desktop"></i></a>
+                    <a href="https://github.com/pvp166/capstone" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+                <div class="item2"><img src="../public/images/restaurant_application.png"></div>
+                <div class="item3">
+                    <h2>Simple Social Network</h2>
+                    <br>
+                    <p>A simple social network that allows me to connect
+                        with my friends privately. This website allows users to upload new posts,
+                        like posts, CRUD on comments, create new users. </p>
+                    <br />
+                    <p><span>NodeJS</span> <span>ReactJS</span> <span>GraphQL</span>
+                        <span>MongoDB</span>
+                    </p>
+                    <br />
+                    <h3>Link to</h3>
+                    <br />
+                    <a href="https://hardcore-swartz-d045c5.netlify.app/" target="_blank"><i
+                            class="fas fa-desktop"></i></a>
+                    <a href="https://github.com/pvp166/simple-social-network-server" target="_blank"><i
+                            class="fab fa-github"></i></a>
+                </div>
+                <div class="item4"><img src="../public/images/love_network.PNG"></div>
+                <div class="item5">
+                    <h2>PrepDMeals</h2>
+                    <br>
+                    <p>A restaurant middleman platform what was created by my team in
+                        Software Engineer Project.
+                        This application will allow Prep Food brand to advertise their restaurant.
+                        The users can use this platform to find out
+                        the best restaurants which match their criteria.
+                        This application has functionalities such as user authentication,
+                        user management, restaurant management, commenting, and reviewing restaurants.
+                        Built with NodeJS, Express JS, Vue JS, Bootstrap, and Mongo DB. </p>
+                    <br />
+                    <p><span>NodeJS</span> <span>Express JS</span> <span>Vue JS</span>
+                        <span>MongoDB</span> <span>Bootstrap</span>
+                    </p>
+                    <br />
+                    <h3>Link to</h3>
+                    <br />
+                    <a href="https://kind-hodgkin-bf2f6e.netlify.app/" target="_blank"><i
+                            class="fas fa-desktop"></i></a>
+                    <a href="https://github.com/pvp166/prepcooks-server" target="_blank"><i
+                            class="fab fa-github"></i></a>
+                </div>
+                <div class="item6"><img src="../public/images/prepdfresh.png"></div>
+
+            </div>
+        </div>
+
+
+    </section>
+    <!-- contact section start -->
+    <section class="experience" id="experience">
+        <div class="max-width">
+            <h2 class="title">
+                My Experience</h2>
+            <div class="ex-content">
+                <div class="card">
+                    <div class="box">
+
+                        <div class="text">
+                            App design</div>
+                        <img src="../public/images/design.jpg" width="25%" height="20%" />
+                        <p>With customer given materials, we created a professional and attractive website </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+
+                        <div class="text">
+                            Requirement Gathering </div>
+                        <img src="../public/images/glass.jpg" width="25%" height="20%" />
+                        <p>
+                            We had several meetings with customer to collect detailed instructions and information.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+
+                        <div class="text">
+                            Agile Lifecycle</div>
+                        <img src="../public/images/lifecycle.jpg" width="35%" height="25%" />
+                        <p>
+                            We went through all steps of agile lifecycle and had weekly meetings to provide a quality
+                            product.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">
+                Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">
+                        Get in Touch</div>
+                    <p>
+                        Looking forward to working together with you and have a bright future together</p>
+                    <div class="icons">
+                        <div class="row">
+
+                            <div class="info">
+                                <div class="head">
+                                    Name</div>
+                                <div class="sub-title">
+                                    Van Phuc Pham</div>
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <div class="info">
+                                <div class="head">
+                                    Address</div>
+                                <div class="sub-title">
+                                    230th East, Hamilton</div>
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <div class="info">
+                                <div class="head">
+                                    Email</div>
+                                <div class="sub-title">
+                                    vandev1668@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">
+                        Message me</div>
+                    <form action="/send" method="POST">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" name="name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Phone Number" name="phoneNumber" required>
+                            </div>
+                            <div class="field email">
+                                <input type="text" placeholder="Company" name="company" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" name="subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <!-- Due to more textarea, I got an error so I changed the tag name of this textarea into changeit. -->
+                            <textarea cols="30" rows="10" placeholder="Message.." name="message" required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section start -->
+    <footer>
+        <span>Created By <a href="#">Van Phuc</a> | <span class="fas fa-copyright"></span> 2021 All rights
+            reserved.</span>
+    </footer>
+
+    <!-- Somehow I got an error, so I comment the script tag, just uncomment to use -->
+    <script src="../public/script.js"></script>
+</body>
+
+</html>
